@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+.content{
+    font-style: italic;
+    font-family: 'Cinzel', serif;
+    font-size: 3.5rem;
+    border-bottom: 1px solid black;
+    border-bottom-width: 10px;
+}
+.need{
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+}
+.loan{
+    box-shadow: 10px 20px 40px black;
+}

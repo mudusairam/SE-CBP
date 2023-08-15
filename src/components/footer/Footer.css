@@ -1,0 +1,65 @@
+.about{
+    list-style: none;
+    color: white;
+   }
+   
+   .footer{
+     background-color:black;
+   }
+    
+   @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+  .social-icons {
+      padding: 0;
+      list-style: none;
+      margin: 1em;
+    }
+    
+    .social-icons li {
+      display: inline-block;
+      margin: 0.15em;
+      position: relative;
+      font-size: 1em;
+    }
+    
+    .social-icons i {
+      color: #fff;
+      position: absolute;
+      top: 0.95em;
+      left: 0.96em;
+      transition: all 265ms ease-out;
+    }
+    
+    .social-icons a {
+      display: inline-block;
+    }
+    
+    .social-icons a:before {
+      transform: scale(1);
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      content: " ";
+      width: 30px;
+      height: 30px;
+      margin-top: 0.8em;
+      margin-left: 0.5em;
+      border-radius: 100%;
+      display: block;
+      background: linear-gradient(45deg, #00bbff, #c648c8);
+      transition: all 265ms ease-out;
+    }
+    
+    .social-icons a:hover:before {
+      transform: scale(0);
+      transition: all 265ms ease-in;
+    }
+    
+    
+.listItems{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.info{
+    font-size: 15px;
+}

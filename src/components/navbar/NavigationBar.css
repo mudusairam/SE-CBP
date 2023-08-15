@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.logoInfo{
+    width: 40px;
+    height: auto;
+    font-size: larger;
+}
+.navLink{
+    text-decoration: none;
+    font-size: 20px;
+}
+.credit{
+    font-family: 'Shrikhand', cursive;
+}
